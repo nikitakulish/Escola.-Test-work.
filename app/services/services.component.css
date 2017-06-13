@@ -1,0 +1,44 @@
+.section-services{
+    text-align: center;
+}
+
+.h5-blue{
+    color: #5449c2;
+}
+
+.shape-services{
+	height: 220px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 15px/13px;
+	-moz-border-radius: 15px/13px;
+	border-radius: 15px/13px;
+	background-color: #fff;
+	border: solid 1px #dcdcdc;
+}
+
+.shape-services:hover{
+    -webkit-box-shadow: 0 10px 35px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 10px 35px rgba(0,0,0,.15);
+	box-shadow: 0 10px 35px rgba(0,0,0,.15);
+}
+
+.shape-services-inside{
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.shape-services-inside>img{
+    max-width: 70px;
+}
+
+.ss-h4{
+    margin-top: 30px;
+}
+
+

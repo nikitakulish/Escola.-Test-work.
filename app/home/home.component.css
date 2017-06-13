@@ -1,0 +1,86 @@
+.logo{
+    max-width: 80%;
+}
+
+.navbar{
+    font-family: 'ProximaNova-Bold', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border: 0px;
+    margin: 20px 50px 0 50px;
+}
+.bg-fixed-navbar {
+    width: 100%;
+    min-height: 70px;
+    position: fixed;
+    z-index: 20;
+    background-color: #362f73;
+}
+
+.navbar-nav>li>a{
+    color: #fff;
+}
+
+.navbar-nav>.active>a{
+    color: #ffdf77;
+    background-color: transparent;
+}
+
+.navbar-nav>li>a:hover{
+    color: #ffdf77;
+    background-color: transparent;
+}
+
+ul.navbar-nav{
+    margin-top: -8px;
+}
+
+.navbar-toggle{
+    margin-top: 2px;
+}
+
+
+
+.carousel-caption{
+    top: 50%;
+    margin-top: -100px;
+}
+
+.carousel-inner img{
+    min-height: 300px;
+}
+
+.btn-home{
+    font-family: 'Yrsa-Medium', sans-serif;
+    font-size: 16px;
+	color: #25242a;
+    
+    width: 170px;
+	height: 35px;
+    margin-top: 50px;
+	-webkit-border-radius: 26px;
+	-moz-border-radius: 26px;
+	border-radius: 26px;
+	background-color: #ffdf77;
+	-webkit-box-shadow: 2px 11px 32px rgba(0,0,0,.4);
+	-moz-box-shadow: 2px 11px 32px rgba(0,0,0,.4);
+	box-shadow: 2px 11px 32px rgba(0,0,0,.4);
+}
+.btn-home:hover{
+    color: #231c60;
+    -webkit-box-shadow: 2px 11px 32px rgba(255,255,255,.4);
+	-moz-box-shadow: 2px 11px 32px rgba(255,255,255,.4);
+	box-shadow: 2px 11px 32px rgba(255,255,255,.4);
+}
+
+@media (max-width: 768px){
+    .container-fluid>.navbar-collapse{
+        background-color: #231d60;
+    }
+    .title-carousel{
+        font-size: 26px;
+    }
+    .btn-home{
+        margin-top: 20px;
+    }
+}

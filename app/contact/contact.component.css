@@ -1,0 +1,97 @@
+.section-contact{
+    color: #fff;
+    text-align: center;
+    background-color: #231c60;
+    padding-bottom: 0px;
+}
+
+.left-img{
+    position: absolute;
+    height: 50%;
+    left: 0px;
+    margin-top: -30px;
+}
+
+.right-img{
+    position: absolute;
+    height: 50%;
+    right: 0px;
+    margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+    .left-img{
+        display: none;
+    }
+    .right-img{
+        display: none;
+    }
+}
+
+.myForm{
+    margin-top: 20px;
+}
+
+input, tetarea, button, submit
+{
+    border:none;
+}
+
+input{
+    width: 100%;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: #000;
+	-webkit-border-radius: 25px 26px 26px 25px/25px 25px 26px 26px;
+	-moz-border-radius: 25px 26px 26px 25px/25px 25px 26px 26px;
+	border-radius: 25px 26px 26px 25px/25px 25px 26px 26px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 460px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: #000;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.btn-home{
+    font-family: 'Yrsa-Medium', sans-serif;
+    font-size: 16px;
+	color: #25242a;
+    
+    width: 120px;
+	height: 35px;
+    margin-top: 20px;
+	-webkit-border-radius: 19px;
+	-moz-border-radius: 19px;
+	border-radius: 19px;
+	background-color: #ffdf77;
+}
+
+.hr {
+  height: 0px;
+  margin: 50px 0 0 0;
+  border-bottom: 1px solid #362f6f;
+  font-size: 1px;
+}
+
+.scroll-to-top{
+    margin-top: 15px;
+    color: #9592b3;
+}
+.scroll-to-top:hover{
+    cursor: pointer;
+}
+.scroll-to-top>h5{
+    margin-top: 0px;
+}

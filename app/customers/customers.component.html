@@ -1,0 +1,40 @@
+<div class="container section section-customers" id="customers">
+    <h3>Our customers</h3>
+    <h5 class="h5-blue">Testimonials</h5>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#quote-carousel" data-slide-to="1"></li>
+                    <li data-target="#quote-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item" *ngFor="let customer of customers; let first = first" [class.active]="first">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-offset-1 col-sm-10 text-center">
+                                    <p>{{ customer.testimonials }}</p>
+                                </div>
+                            </div>
+                        </blockquote>
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-10 text-center">
+                                <img class="img-circle img-left" src="{{ customer.img }}"> 
+                                <div class="desk-right">
+                                    <div style="margin-top: 10px;">
+                                        <h5>{{ customer.name }}</h5>
+                                        <small>{{ customer.desk }}</small> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a> 
+                <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a> 
+            </div>
+        </div>
+    </div>
+</div>

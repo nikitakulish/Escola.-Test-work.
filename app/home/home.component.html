@@ -1,0 +1,43 @@
+<div class="" id="nav-container">
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav-menu">
+        <div class="container-fluid">
+            <!-- Заголовок -->
+            <div class="navbar-header">
+                <a href="#"><img class="logo" src="resources/img/logo.png" alt="logo" /></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse pull-right " id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a (click)="scrollPage('#carousel-example-generic')" href="#carousel-example-generic">Home</a></li>
+                    <li><a (click)="scrollPage('#services')" href="#services">Our Services</a></li>
+                    <li><a (click)="scrollPage('#about')" class="scrollLink" href="#about">About us</a></li>
+                    <li><a (click)="scrollPage('#customers')" class="scrollLink" href="#customers">Customers</a></li>
+                    <li><a (click)="scrollPage('#contact')" class="scrollLink" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <!-- Указатели -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    </ol>
+    <!-- Контент слайда (slider wrap)-->
+    <div class="carousel-inner" >
+        <div class="item active"> <img src="resources/img/Layer2.png" alt="...">
+            <div class="carousel-caption"> 
+                <h1 class="title-carousel">Let’s turn your idea <br/> into digital product</h1>
+                <a (click)="scrollPage('#about')" class="btn btn-home" href="#" role="button">Know more</a>
+            </div>
+        </div>
+        <div class="item"> <img src="resources/img/Layer1.png" alt="...">
+            <div class="carousel-caption"> 
+                <h1 class="title-carousel">We create digital products for <br/> companies and startups</h1>
+                <a (click)="scrollPage('#about')" class="btn btn-home" href="#" role="button">Know more</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+.section-about{
+    text-align: center;
+    background-color: #eef0fa;
+}
+
+.h5-blue{
+    color: #5449c2;
+}
+
+.team-popover-object{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.team-popover-object>img{
+    width: 190px;
+}
+
+.team-popover-object>span{
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.circle-popover{
+    width: 20px;
+	height: 20px;
+    position: relative;
+    margin: auto;
+    margin-top: -10px;
+    z-index: 10;
+    
+	-webkit-border-radius: 12px 13px 13px 12px/12px 12px 13px 13px;
+	-moz-border-radius: 12px 13px 13px 12px/12px 12px 13px 13px;
+	border-radius: 12px 13px 13px 12px/12px 12px 13px 13px;
+	background-color: #00dae4;
+}
